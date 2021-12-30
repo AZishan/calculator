@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: fit-content;
+    margin:0 auto;
+}
+.calcBody{
+    background: #575757;
+    width: fit-content;
+    padding: 30px;
+    padding-left: 25px;
+    border-radius: 10px;
+    .displayPart{
+        background: #fff;
+        border-radius: 10px;
+        text-align: right;
+        padding:0 10px;
+        margin-bottom: 20px;
+    }
+
+    .buttonPart {
+        display: inline-grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        .btn{          
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            height: 110%;
+            width: 120%;
+            box-shadow: 0 5px 1px #ddd;
+            border: none !important;
+            transition: none;
+            &:hover{
+                background: rgb(138, 138, 138);
+                color: #fff;
+            }
+        }
+        .btn-orange{
+            background: orange;
+            box-shadow: 0 5px 1px rgb(255, 136, 0);
+        }
+    }
+}

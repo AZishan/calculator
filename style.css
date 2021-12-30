@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.calcBody {
+  background: #575757;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 30px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+.calcBody .displayPart {
+  background: #fff;
+  border-radius: 10px;
+  text-align: right;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.calcBody .buttonPart {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.calcBody .buttonPart .btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  height: 110%;
+  width: 120%;
+  -webkit-box-shadow: 0 5px 1px #ddd;
+          box-shadow: 0 5px 1px #ddd;
+  border: none !important;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.calcBody .buttonPart .btn:hover {
+  background: #8a8a8a;
+  color: #fff;
+}
+
+.calcBody .buttonPart .btn-orange {
+  background: orange;
+  -webkit-box-shadow: 0 5px 1px #ff8800;
+          box-shadow: 0 5px 1px #ff8800;
+}
+/*# sourceMappingURL=style.css.map */
